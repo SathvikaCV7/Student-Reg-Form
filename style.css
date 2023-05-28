@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #3f9898, #0b4aea , #1a73d8);
+}
+.back{
+    background-image:linear-gradient(to left, #3f9898, #0b4aea , #1a73d8);
+}
+h1{
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    color: rgb(255, 253, 250);
+    margin-top: 10px;
+}
+
+h2{
+    color: rgb(9, 0, 12);
+    text-align: center;
+}
+
+
+body>table{
+    width: 100%;
+    
+}
+
+table{
+    border-radius: 5px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 50px;
+}
+.col2{
+    padding-right:30px;
+}
+
+table.list{
+    
+    padding-left: 20px;
+    margin-left:150px;
+    height: 30px;
+    align-items: center;
+    border-collapse: collapse;
+    background-color: #15c9c9;
+}
+
+td,
+th{
+    border: 1px solid #CAF0F8;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+    background-color:linear-gradient();
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid white;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-image:linear-gradient(to right, #605e7e, #6b73c1, #37b3cc);
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color:transparent;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+.form-action-buttons:hover{
+    background-color: #8680d0;
+    border-radius: 10px;
+}
+a{
+    cursor: pointer;
+    width: 20%;
+    background-color: #15c9c9;
+    color: white;
+    padding: 2px 2px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+label.validation-error {
+    color: #03045E;
+    margin-left: 5px;
+}
+
+.hide{
+    display: none;
+}
